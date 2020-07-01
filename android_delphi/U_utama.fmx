@@ -1,0 +1,3170 @@
+object FUTAMA: TFUTAMA
+  Left = 0
+  Top = 0
+  Caption = 'UTAMA'
+  ClientHeight = 535
+  ClientWidth = 298
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnActivate = FormActivate
+  DesignerMasterStyle = 3
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 298.000000000000000000
+    Size.Height = 535.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 1
+    TabOrder = 0
+    TabPosition = None
+    Sizes = (
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s
+      298s
+      535s)
+    object data_wilayah: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'DATA WILAYAH'
+      ExplicitSize.cx = 49.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object VertScrollBox3: TVertScrollBox
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 293.000000000000000000
+        Viewport.Height = 485.000000000000000000
+        object Button11: TButton
+          Position.X = 39.000000000000000000
+          Position.Y = 420.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          Text = 'DELETE'
+          OnClick = Button11Click
+        end
+        object Button12: TButton
+          Position.X = 39.000000000000000000
+          Position.Y = 224.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          Text = 'SAVE'
+          OnClick = Button12Click
+        end
+        object Button13: TButton
+          Position.X = 39.000000000000000000
+          Position.Y = 320.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          Text = 'UPDATE'
+          OnClick = Button13Click
+        end
+        object Edit5: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 2
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 39.000000000000000000
+          Position.Y = 96.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Edit6: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 39.000000000000000000
+          Position.Y = 163.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label6: TLabel
+          Position.X = 39.000000000000000000
+          Position.Y = 64.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'KODE TRAYEK  :'
+          TabOrder = 6
+        end
+        object Label7: TLabel
+          Position.X = 39.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'TRAYEK  :'
+          TabOrder = 4
+        end
+      end
+      object Layout3: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Button14: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button3'
+          OnClick = Button14Click
+        end
+      end
+    end
+    object login: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'LOGIN'
+      ExplicitSize.cx = 55.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 1
+        TextSettings.Font.Size = 20.000000000000000000
+        Position.X = 48.000000000000000000
+        Position.Y = 144.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+      end
+      object Edit2: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 0
+        TextSettings.Font.Size = 20.000000000000000000
+        Position.X = 48.000000000000000000
+        Position.Y = 216.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+      end
+      object Label1: TLabel
+        Position.X = 48.000000000000000000
+        Position.Y = 104.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'USERNAME :'
+        TabOrder = 4
+      end
+      object Label2: TLabel
+        Position.X = 48.000000000000000000
+        Position.Y = 184.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'PASSWORD :'
+        TabOrder = 2
+      end
+      object Button1: TButton
+        Position.X = 48.000000000000000000
+        Position.Y = 270.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 6
+        Text = 'LOGIN'
+        OnClick = Button1Click
+      end
+      object Button2: TButton
+        Position.X = 48.000000000000000000
+        Position.Y = 366.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = 'BATAL'
+        OnClick = Button2Click
+      end
+      object Label3: TLabel
+        Position.Y = 64.000000000000000000
+        Size.Width = 297.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        TabOrder = 3
+      end
+    end
+    object menu: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'MENU'
+      ExplicitSize.cx = 55.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object VertScrollBox1: TVertScrollBox
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 535.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 293.000000000000000000
+        Viewport.Height = 535.000000000000000000
+        object Button5: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 32.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'INPUT DATA PO'
+          OnClick = Button5Click
+        end
+        object Button6: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 144.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'INFO DATA PO'
+          OnClick = Button6Click
+        end
+        object Button16: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 256.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = 'INPUT DATA WILAYAH'
+          OnClick = Button16Click
+        end
+        object Button7: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 1863.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'LOGOUT'
+          OnClick = Button7Click
+        end
+        object Button17: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 371.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'INFO DATA WILAYAH'
+          OnClick = Button17Click
+        end
+        object Button23: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 488.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 16
+          Text = 'INPUT DATA STAFF'
+          OnClick = Button23Click
+        end
+        object Button24: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 600.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 15
+          Text = 'INFO DATA STAFF'
+          OnClick = Button24Click
+        end
+        object Button25: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 712.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 14
+          Text = 'DATA JENIS KENDARAAN'
+          OnClick = Button25Click
+        end
+        object Button30: TButton
+          Position.X = 39.000000000000000000
+          Position.Y = 823.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 13
+          Text = 'INFO JENIS KENDARAAN'
+          OnClick = Button30Click
+        end
+        object Button31: TButton
+          Position.X = 39.000000000000000000
+          Position.Y = 936.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 12
+          Text = 'JENIS PELANGGARAN'
+          OnClick = Button31Click
+        end
+        object Button38: TButton
+          Position.X = 24.000000000000000000
+          Position.Y = 1048.000000000000000000
+          Size.Width = 249.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 11
+          Text = 'INFO JENIS PELANGGARAN'
+          OnClick = Button38Click
+        end
+        object Button39: TButton
+          Position.X = 39.000000000000000000
+          Position.Y = 1160.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          Text = 'DATA PELANGGARAN'
+          OnClick = Button39Click
+        end
+        object Button40: TButton
+          Position.X = 16.000000000000000000
+          Position.Y = 1272.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          Text = 'INFO DATA PELANGGARAN'
+          OnClick = Button40Click
+        end
+        object Button41: TButton
+          Position.X = 41.000000000000000000
+          Position.Y = 1384.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          Text = 'DATA KENDARAAN'
+          OnClick = Button41Click
+        end
+        object Button60: TButton
+          Position.X = 39.000000000000000000
+          Position.Y = 1504.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          Text = 'INFO DATA KENDARAAN'
+          OnClick = Button60Click
+        end
+        object Button61: TButton
+          Position.X = 16.000000000000000000
+          Position.Y = 1624.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = 'INPUT DATA PENCATATAN'
+          OnClick = Button61Click
+        end
+        object Button70: TButton
+          Position.X = 16.000000000000000000
+          Position.Y = 1744.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 94.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'INFO DATA PENCATATAN'
+          OnClick = Button70Click
+        end
+      end
+    end
+    object data_po: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'DATA PO'
+      ExplicitSize.cx = 68.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object VertScrollBox2: TVertScrollBox
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Viewport.Width = 293.000000000000000000
+        Viewport.Height = 485.000000000000000000
+        object Edit3: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 2
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 48.000000000000000000
+          Position.Y = 104.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Edit4: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 48.000000000000000000
+          Position.Y = 171.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label4: TLabel
+          Position.X = 48.000000000000000000
+          Position.Y = 80.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'KODE PO :'
+          TabOrder = 6
+        end
+        object Label5: TLabel
+          Position.X = 48.000000000000000000
+          Position.Y = 144.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'NAMA PO :'
+          TabOrder = 4
+        end
+        object Button8: TButton
+          Position.X = 48.000000000000000000
+          Position.Y = 232.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          Text = 'SAVE'
+          OnClick = Button8Click
+        end
+        object Button9: TButton
+          Position.X = 48.000000000000000000
+          Position.Y = 328.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          Text = 'UPDATE'
+          OnClick = Button9Click
+        end
+        object Button10: TButton
+          Position.X = 48.000000000000000000
+          Position.Y = 424.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          Text = 'DELETE'
+          OnClick = Button10Click
+        end
+      end
+      object Layout2: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        object Button4: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button3'
+          OnClick = Button4Click
+        end
+      end
+    end
+    object info_data_po: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'INFO DATA PO'
+      ExplicitSize.cx = 98.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Layout1: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        object Button3: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button3'
+          OnClick = Button3Click
+        end
+      end
+      object ListView1: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 8
+        OnClick = ListView1Click
+        OnItemClick = ListView1ItemClick
+        OnButtonClick = ListView1ButtonClick
+      end
+    end
+    object info_data_wilayah: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'INFO DATA WILAYAH'
+      ExplicitSize.cx = 54.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout4: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        object Button15: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button3'
+          OnClick = Button15Click
+        end
+      end
+      object ListView2: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 8
+        OnItemClick = ListView2ItemClick
+      end
+    end
+    object data_staff: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'DATA STAFF'
+      ExplicitSize.cx = 33.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout5: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button18: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button18'
+          OnClick = Button18Click
+        end
+      end
+      object VertScrollBox4: TVertScrollBox
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 293.000000000000000000
+        Viewport.Height = 485.000000000000000000
+        object Label8: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 40.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'NIP :'
+          TabOrder = 9
+        end
+        object Edit7: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 4
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 64.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label9: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 104.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Nama Pegawai :'
+          TabOrder = 7
+        end
+        object Edit8: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 2
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 131.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Button19: TButton
+          Position.X = 24.000000000000000000
+          Position.Y = 504.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 13
+          Text = 'SAVE'
+          OnClick = Button19Click
+        end
+        object Edit10: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 267.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Edit9: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 3
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 200.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label10: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 176.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Jabatan  :'
+          TabOrder = 10
+        end
+        object Label11: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 240.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'No. Telpon  :'
+          TabOrder = 6
+        end
+        object Button20: TButton
+          Position.X = 24.000000000000000000
+          Position.Y = 600.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 12
+          Text = 'UPDATE'
+          OnClick = Button20Click
+        end
+        object Button21: TButton
+          Position.X = 24.000000000000000000
+          Position.Y = 697.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 11
+          Text = 'DELETE'
+          OnClick = Button21Click
+        end
+        object Label12: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 310.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Jenis Kelamin  :'
+          TabOrder = 5
+        end
+        object RadioButton1: TRadioButton
+          Position.X = 16.000000000000000000
+          Position.Y = 360.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 15
+          Text = 'PRIA'
+        end
+        object RadioButton2: TRadioButton
+          Position.X = 16.000000000000000000
+          Position.Y = 416.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 14
+          Text = 'WANITA'
+        end
+      end
+    end
+    object info_data_staff: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'INFO DATA STAFF'
+      ExplicitSize.cx = 33.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout6: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button22: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button22'
+          OnClick = Button22Click
+        end
+      end
+      object ListView3: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnItemClick = ListView3ItemClick
+      end
+    end
+    object data_jenis_kendaraan: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'DATA JENIS KENDARAAN'
+      ExplicitSize.cx = 35.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout7: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button26: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button26'
+          OnClick = Button26Click
+        end
+      end
+      object VertScrollBox5: TVertScrollBox
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 293.000000000000000000
+        Viewport.Height = 485.000000000000000000
+        object Label13: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 24.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Kode Jenis Kendaraan :'
+          TabOrder = 9
+        end
+        object Edit11: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 4
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 56.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label14: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 96.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Nama Jenis Kendaraan :'
+          TabOrder = 7
+        end
+        object Edit12: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 2
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 123.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label15: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 168.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Keterangan  :'
+          TabOrder = 10
+        end
+        object Edit13: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 3
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 192.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Button27: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 264.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 13
+          Text = 'SAVE'
+          OnClick = Button27Click
+        end
+        object Button28: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 368.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 12
+          Text = 'UPDATE'
+          OnClick = Button28Click
+        end
+        object Button29: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 467.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 11
+          Text = 'DELETE'
+          OnClick = Button29Click
+        end
+      end
+    end
+    object info_jenis_kendaraan: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'INFO JENIS KENDARAAN'
+      ExplicitSize.cx = 38.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout8: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button32: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button32'
+          OnClick = Button32Click
+        end
+      end
+      object ListView4: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnItemClick = ListView4ItemClick
+      end
+    end
+    object data_jenis_pelanggaran: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'DATA JENIS PELANGGARAN'
+      ExplicitSize.cx = 24.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout9: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button33: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button33'
+          OnClick = Button33Click
+        end
+      end
+      object VertScrollBox6: TVertScrollBox
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 293.000000000000000000
+        Viewport.Height = 485.000000000000000000
+        object Label16: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 32.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Kode Jenis Pelanggaran:'
+          TabOrder = 9
+        end
+        object Edit14: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 4
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 24.000000000000000000
+          Position.Y = 64.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label17: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 104.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Nama Jenis Pelanggaran :'
+          TabOrder = 7
+        end
+        object Edit15: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 2
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 24.000000000000000000
+          Position.Y = 131.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label18: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 176.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Keterangan  :'
+          TabOrder = 10
+        end
+        object Edit16: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 3
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 24.000000000000000000
+          Position.Y = 200.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Button34: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 272.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 13
+          Text = 'SAVE'
+          OnClick = Button34Click
+        end
+        object Button35: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 376.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 12
+          Text = 'UPDATE'
+          OnClick = Button35Click
+        end
+        object Button36: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 475.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 11
+          Text = 'DELETE'
+          OnClick = Button36Click
+        end
+      end
+    end
+    object data_info_jenis_pelanggaran: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'INFO JENIS PELANGGARAN'
+      ExplicitSize.cx = 35.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout10: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button37: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button37'
+          OnClick = Button37Click
+        end
+      end
+      object ListView5: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnItemClick = ListView5ItemClick
+      end
+    end
+    object data_pelanggaran: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'DATA PELANGGARAN'
+      ExplicitSize.cx = 19.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout11: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button42: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button42'
+          OnClick = Button42Click
+        end
+      end
+      object VertScrollBox7: TVertScrollBox
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 293.000000000000000000
+        Viewport.Height = 485.000000000000000000
+        object Button44: TButton
+          Position.X = 227.000000000000000000
+          Position.Y = 269.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'CARI'
+          OnClick = Button44Click
+        end
+        object Button45: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 400.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'SAVE'
+          OnClick = Button45Click
+        end
+        object Edit20: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 6
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 268.000000000000000000
+          Enabled = False
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label22: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 240.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Kode Jenis Pelanggaran  :'
+          TabOrder = 16
+        end
+        object Label23: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 307.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Nama Jenis Pelanggaran  :'
+          TabOrder = 15
+        end
+        object Label24: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 347.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 14
+        end
+        object Edit17: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 7
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 68.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Edit18: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 4
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 129.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Edit19: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 5
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 200.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label19: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 35.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Kode Pelanggaran:'
+          TabOrder = 11
+        end
+        object Label20: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 104.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Nama Pelanggaran :'
+          TabOrder = 9
+        end
+        object Label21: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 168.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Keterangan  :'
+          TabOrder = 12
+        end
+        object Button46: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 499.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'UPDATE'
+          OnClick = Button46Click
+        end
+        object Button47: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 595.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'DELETE'
+          OnClick = Button47Click
+        end
+      end
+    end
+    object info_data_pelanggaran: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'INFO DATA PELANGGARAN'
+      ExplicitSize.cx = 19.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout12: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button43: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button43'
+          OnClick = Button43Click
+        end
+      end
+      object ListView6: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnItemClick = ListView6ItemClick
+      end
+    end
+    object cari_jenis_pelanggaran: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'CARI JENIS PELANGGARAN'
+      ExplicitSize.cx = 33.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout13: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button48: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button43'
+          OnClick = Button48Click
+        end
+      end
+      object ListView7: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnItemClick = ListView7ItemClick
+      end
+    end
+    object data_kendaraan: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'DATA KENDARAAN'
+      ExplicitSize.cx = 19.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout14: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button49: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button49'
+          OnClick = Button49Click
+        end
+      end
+      object VertScrollBox8: TVertScrollBox
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 293.000000000000000000
+        Viewport.Height = 485.000000000000000000
+        object Label25: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 43.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'No Plat :'
+          TabOrder = 19
+        end
+        object Edit21: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 15
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 76.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label26: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 112.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Nomor Kendaraan :'
+          TabOrder = 17
+        end
+        object Edit22: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 6
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 137.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label27: TLabel
+          Position.X = 17.000000000000000000
+          Position.Y = 184.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Nama Sopir  :'
+          TabOrder = 20
+        end
+        object Edit23: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 7
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 208.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label28: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 248.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Izin Trayek  :'
+          TabOrder = 27
+        end
+        object Edit24: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 8
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 276.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label29: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 397.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Nama Jenis Kendaraan  :'
+          TabOrder = 26
+        end
+        object Label30: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 437.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 24
+        end
+        object Edit25: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 14
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 356.000000000000000000
+          Enabled = False
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label31: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 320.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Kode Jenis Kendaraan  :'
+          TabOrder = 33
+        end
+        object Label32: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 474.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Kode PO :'
+          TabOrder = 32
+        end
+        object Edit26: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 13
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 509.000000000000000000
+          Enabled = False
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label33: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 551.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Nama PO  :'
+          TabOrder = 25
+        end
+        object Label34: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 583.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 22
+        end
+        object Label35: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 620.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Kode Trayek :'
+          TabOrder = 31
+        end
+        object Edit27: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 12
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 655.000000000000000000
+          Enabled = False
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label36: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 693.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Trayek  :'
+          TabOrder = 23
+        end
+        object Label37: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 726.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 21
+        end
+        object Button50: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 1040.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 36
+          Text = 'SAVE'
+          OnClick = Button50Click
+        end
+        object Label38: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 764.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Tarif Standar Anak :'
+          TabOrder = 30
+        end
+        object Edit28: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 11
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 796.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Edit29: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 10
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 872.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label39: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 838.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Tarif Standar Dewasa :'
+          TabOrder = 29
+        end
+        object Label40: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 915.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Keterangan :'
+          TabOrder = 28
+        end
+        object Edit30: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 9
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 948.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Button51: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 1144.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 34
+          Text = 'UPDATE'
+          OnClick = Button51Click
+        end
+        object Button52: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 1248.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 35
+          Text = 'DELETE'
+          OnClick = Button52Click
+        end
+        object Button53: TButton
+          Position.X = 227.000000000000000000
+          Position.Y = 357.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'CARI'
+          OnClick = Button53Click
+        end
+        object Button54: TButton
+          Position.X = 226.000000000000000000
+          Position.Y = 509.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'CARI'
+          OnClick = Button54Click
+        end
+        object Button55: TButton
+          Position.X = 226.000000000000000000
+          Position.Y = 659.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'CARI'
+          OnClick = Button55Click
+        end
+      end
+    end
+    object info_data_kendaraan: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'INFO DATA KENDARAAN'
+      ExplicitSize.cx = 49.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout15: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button56: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button56'
+          OnClick = Button56Click
+        end
+      end
+      object ListView8: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnItemClick = ListView8ItemClick
+      end
+    end
+    object cari_data_jenis_kendaraan: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'cari_jenis_kendaraan'
+      ExplicitSize.cx = 39.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout16: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button57: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'DATA KENDARAAN'
+          OnClick = Button57Click
+        end
+      end
+      object ListView9: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnItemClick = ListView9ItemClick
+      end
+    end
+    object cari_data_po: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'CARI NAMA PO'
+      ExplicitSize.cx = 39.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout17: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button58: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button56'
+          OnClick = Button58Click
+        end
+      end
+      object ListView10: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnItemClick = ListView10ItemClick
+      end
+    end
+    object cari_data_trayek: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'CARI DATA TRAYEK'
+      ExplicitSize.cx = 46.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout18: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button59: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button56'
+          OnClick = Button59Click
+        end
+      end
+      object ListView11: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnItemClick = ListView11ItemClick
+      end
+    end
+    object data_pencatatan: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'DATA PENCATATAN'
+      ExplicitSize.cx = 33.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout19: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button62: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button62'
+          OnClick = Button62Click
+        end
+      end
+      object VertScrollBox9: TVertScrollBox
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 293.000000000000000000
+        Viewport.Height = 485.000000000000000000
+        object Button65: TButton
+          Position.X = 48.000000000000000000
+          Position.Y = 2092.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 80
+          Text = 'SAVE'
+          OnClick = Button65Click
+        end
+        object Button67: TButton
+          Position.X = 48.000000000000000000
+          Position.Y = 2211.000000000000000000
+          Size.Width = 210.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 77
+          Text = 'DELETE'
+          OnClick = Button67Click
+        end
+        object Edit31: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 17
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 24.000000000000000000
+          Position.Y = 52.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label41: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 19.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'NO. PECATATAN :'
+          TabOrder = 34
+        end
+        object Label42: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'TGL PENCATATAN :'
+          TabOrder = 19
+        end
+        object DateEdit1: TDateEdit
+          Date = 44013.000000000000000000
+          Format = 'dd-MMM-yyyy'
+          Position.X = 24.000000000000000000
+          Position.Y = 120.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 81
+        end
+        object Label43: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 168.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'NO.PLAT  :'
+          TabOrder = 89
+        end
+        object Edit32: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 23
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 24.000000000000000000
+          Position.Y = 204.000000000000000000
+          Enabled = False
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Button64: TButton
+          Position.X = 235.000000000000000000
+          Position.Y = 205.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'CARI'
+          OnClick = Button64Click
+        end
+        object Label44: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 243.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'NAMA KENDARAAN  :'
+          TabOrder = 79
+        end
+        object Label45: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 275.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 74
+        end
+        object Label46: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 315.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'JENIS KENDARAAN   :'
+          TabOrder = 78
+        end
+        object Label47: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 347.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 72
+        end
+        object Label48: TLabel
+          Position.X = 25.000000000000000000
+          Position.Y = 445.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'IZIN TRAYEK :'
+          TabOrder = 76
+        end
+        object Label49: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 410.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 59
+        end
+        object Label50: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 379.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'NAMA PO  :'
+          TabOrder = 73
+        end
+        object Label51: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 475.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 57
+        end
+        object Label52: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 507.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'TRAYEK  :'
+          TabOrder = 71
+        end
+        object Label53: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 539.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 56
+        end
+        object Label54: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 572.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'JAM :'
+          TabOrder = 69
+        end
+        object Label55: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 604.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 54
+        end
+        object Label56: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 643.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'STATUS :'
+          TabOrder = 62
+        end
+        object RadioButton3: TRadioButton
+          Position.X = 24.000000000000000000
+          Position.Y = 680.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 24
+          Text = 'PRIA'
+        end
+        object RadioButton4: TRadioButton
+          Position.X = 24.000000000000000000
+          Position.Y = 723.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 21
+          Text = 'WANITA'
+        end
+        object Label57: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 763.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'JUMLAH WANITA  :'
+          TabOrder = 32
+        end
+        object Edit33: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 15
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 24.000000000000000000
+          Position.Y = 796.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Edit34: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 16
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 24.000000000000000000
+          Position.Y = 879.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Edit35: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 11
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 24.000000000000000000
+          Position.Y = 959.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+          OnChange = Edit35Change
+          OnClick = Edit35Click
+        end
+        object Label58: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 841.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'JUMLAH PRIA  :'
+          TabOrder = 33
+        end
+        object Label59: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 921.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'JUMLAH ANAK-ANAK :'
+          TabOrder = 25
+        end
+        object Label60: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1003.000000000000000000
+          Size.Width = 273.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'TOTAL PENUMPANG :'
+          TabOrder = 68
+        end
+        object Label61: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 1035.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = '000000'
+          TabOrder = 52
+        end
+        object Label62: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1075.000000000000000000
+          Size.Width = 281.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'TARIF STANDART DEWASA  Rp. :'
+          TabOrder = 65
+        end
+        object Label63: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 1110.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = '000000'
+          TabOrder = 49
+        end
+        object Label64: TLabel
+          Position.X = 8.000000000000000000
+          Position.Y = 1147.000000000000000000
+          Size.Width = 305.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'TARIF STANDART ANAK-ANAK Rp. :'
+          TabOrder = 64
+        end
+        object Label65: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 1179.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = '000000'
+          TabOrder = 46
+        end
+        object Label66: TLabel
+          Position.X = 8.000000000000000000
+          Position.Y = 1310.000000000000000000
+          Size.Width = 297.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'HARGA TIKET ANAK-ANAK  Rp. :'
+          TabOrder = 28
+        end
+        object Edit36: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 12
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 24.000000000000000000
+          Position.Y = 1260.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+          OnClick = Edit36Click
+        end
+        object Label67: TLabel
+          Position.X = 8.000000000000000000
+          Position.Y = 1222.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'HARGA TIKET DEWASA  Rp. :'
+          TabOrder = 27
+        end
+        object Edit37: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 14
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 24.000000000000000000
+          Position.Y = 1348.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+          OnClick = Edit37Click
+        end
+        object Label68: TLabel
+          Position.X = 6.000000000000000000
+          Position.Y = 1390.000000000000000000
+          Size.Width = 273.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'SELISIH TARIF DEWASA Rp.  :'
+          TabOrder = 67
+        end
+        object Label69: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1421.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = '000000'
+          TabOrder = 51
+        end
+        object Label70: TLabel
+          Position.X = 8.000000000000000000
+          Position.Y = 1455.000000000000000000
+          Size.Width = 281.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'SELISIH TARIF ANAK-ANAK  Rp. :'
+          TabOrder = 63
+        end
+        object Label71: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1487.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = '000000'
+          TabOrder = 48
+        end
+        object Label72: TLabel
+          Position.X = 8.000000000000000000
+          Position.Y = 1523.000000000000000000
+          Size.Width = 305.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'TOTAL TARIF Rp. :'
+          TabOrder = 58
+        end
+        object Label73: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1555.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = '000000'
+          TabOrder = 45
+        end
+        object Label74: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1590.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'KODE PELANGGARAN :'
+          TabOrder = 88
+        end
+        object Edit38: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 22
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 1626.000000000000000000
+          Enabled = False
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Button66: TButton
+          Position.X = 227.000000000000000000
+          Position.Y = 1627.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'CARI'
+          OnClick = Button66Click
+        end
+        object Label75: TLabel
+          Position.X = 14.000000000000000000
+          Position.Y = 1675.000000000000000000
+          Size.Width = 273.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'NAMA PELANGGARAN :'
+          TabOrder = 66
+        end
+        object Label76: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1713.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 50
+        end
+        object Label77: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1747.000000000000000000
+          Size.Width = 281.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'JENIS PELANGGARAN :'
+          TabOrder = 61
+        end
+        object Label78: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1780.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 47
+        end
+        object Label79: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1811.000000000000000000
+          Size.Width = 305.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'NIP  :'
+          TabOrder = 55
+        end
+        object Label80: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1851.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 44
+        end
+        object Label81: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1915.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'XXXXXX'
+          TabOrder = 43
+        end
+        object Label82: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1883.000000000000000000
+          Size.Width = 305.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'NAMA PEGAWAI  :'
+          TabOrder = 53
+        end
+        object Label83: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 1954.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'KETERANGAN :'
+          TabOrder = 26
+        end
+        object Edit39: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 13
+          TextSettings.Font.Size = 20.000000000000000000
+          Position.X = 16.000000000000000000
+          Position.Y = 1988.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+        end
+        object Label84: TLabel
+          Position.X = 528.000000000000000000
+          Position.Y = 611.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'TRAYEK  :'
+          Visible = False
+          TabOrder = 70
+        end
+        object Label85: TLabel
+          Position.X = 520.000000000000000000
+          Position.Y = 571.000000000000000000
+          Size.Width = 281.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'JENIS PELANGGARAN :'
+          Visible = False
+          TabOrder = 60
+        end
+        object Label86: TLabel
+          Position.X = 488.000000000000000000
+          Position.Y = 574.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'JUMLAH WANITA  :'
+          TabOrder = 31
+        end
+        object Label87: TLabel
+          Position.X = 472.000000000000000000
+          Position.Y = 622.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'JUMLAH WANITA  :'
+          TabOrder = 30
+        end
+        object Label88: TLabel
+          Position.X = 472.000000000000000000
+          Position.Y = 406.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'JUMLAH WANITA  :'
+          TabOrder = 29
+        end
+        object Label89: TLabel
+          Position.X = 489.000000000000000000
+          Position.Y = 707.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'IZIN TRAYEK :'
+          TabOrder = 75
+        end
+      end
+    end
+    object info_data_pencatatan: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'INFO DATA PENCATATAN'
+      ExplicitSize.cx = 33.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout20: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button63: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button62'
+          OnClick = Button63Click
+        end
+      end
+      object ListView12: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnItemClick = ListView12ItemClick
+      end
+    end
+    object cari_penumpang: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'CARI PENUMPANG'
+      ExplicitSize.cx = 33.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout21: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button68: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button68'
+          OnClick = Button68Click
+        end
+      end
+      object ListView13: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnItemClick = ListView13ItemClick
+      end
+    end
+    object cari_data_kendaraan: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'CARI DATA KENDARAAN'
+      ExplicitSize.cx = 40.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout22: TLayout
+        Align = Top
+        Size.Width = 298.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button69: TButton
+          Align = Left
+          Position.Y = 1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'Button68'
+          OnClick = Button69Click
+        end
+      end
+      object ListView14: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 1
+        Align = Client
+        Size.Width = 298.000000000000000000
+        Size.Height = 485.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnItemClick = ListView14ItemClick
+      end
+    end
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 584
+    Top = 368
+  end
+  object ActionList1: TActionList
+    Left = 88
+    Top = 56
+    object tab_login: TChangeTabAction
+      Category = 'Tab'
+      Tab = login
+    end
+    object tab_menu: TChangeTabAction
+      Category = 'Tab'
+      Tab = menu
+    end
+    object tab_data_po: TChangeTabAction
+      Category = 'Tab'
+      Tab = data_po
+    end
+    object tab_info_data_po: TChangeTabAction
+      Category = 'Tab'
+      Tab = info_data_po
+    end
+    object tab_data_wilayah: TChangeTabAction
+      Category = 'Tab'
+      Tab = data_wilayah
+    end
+    object tab_info_wilayah: TChangeTabAction
+      Category = 'Tab'
+      Tab = info_data_wilayah
+    end
+    object tab_data_staff: TChangeTabAction
+      Category = 'Tab'
+      Tab = data_staff
+    end
+    object tab_info_staff: TChangeTabAction
+      Category = 'Tab'
+      Tab = info_data_staff
+    end
+    object tab_jenis_kendaraan: TChangeTabAction
+      Category = 'Tab'
+      Tab = data_jenis_kendaraan
+    end
+    object tab_info_jenis_kendaraan: TChangeTabAction
+      Category = 'Tab'
+      Tab = info_jenis_kendaraan
+    end
+    object tab_jenis_pelanggaran: TChangeTabAction
+      Category = 'Tab'
+      Tab = data_jenis_pelanggaran
+    end
+    object tab_info_jenis_pelanggaran: TChangeTabAction
+      Category = 'Tab'
+      Tab = data_info_jenis_pelanggaran
+    end
+    object tab_data_pelanggaran: TChangeTabAction
+      Category = 'Tab'
+      Tab = data_pelanggaran
+    end
+    object tab_info_data_pelanggaran: TChangeTabAction
+      Category = 'Tab'
+      Tab = info_data_pelanggaran
+    end
+    object tab_cari_jenis_pelanggaran: TChangeTabAction
+      Category = 'Tab'
+      Tab = cari_jenis_pelanggaran
+    end
+    object tab_data_kendaraan: TChangeTabAction
+      Category = 'Tab'
+      Tab = data_kendaraan
+    end
+    object tab_info_data_kendaraan: TChangeTabAction
+      Category = 'Tab'
+      Tab = info_data_kendaraan
+    end
+    object tab_cari_data_jenis_kendaraan: TChangeTabAction
+      Category = 'Tab'
+      Tab = cari_data_jenis_kendaraan
+    end
+    object tab_cari_data_po: TChangeTabAction
+      Category = 'Tab'
+      Tab = cari_data_po
+    end
+    object tab_cari_data_trayek: TChangeTabAction
+      Category = 'Tab'
+      Tab = cari_data_trayek
+    end
+    object tab_data_pencatatan: TChangeTabAction
+      Category = 'Tab'
+      Tab = data_pencatatan
+    end
+    object tab_info_data_pencatatan: TChangeTabAction
+      Category = 'Tab'
+      Tab = info_data_pencatatan
+    end
+    object tab_cari_penumpang: TChangeTabAction
+      Category = 'Tab'
+      Tab = cari_penumpang
+    end
+    object tab_cari_data_kendaraan: TChangeTabAction
+      Category = 'Tab'
+      Tab = cari_data_kendaraan
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = DM.po
+    ScopeMappings = <>
+    Left = 488
+    Top = 176
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 580
+    Top = 197
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'nm_po'
+      Control = ListView1
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'kd_po'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField2: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      FieldName = 'trayek'
+      Control = ListView2
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'kd_trayek'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField3: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB3
+      FieldName = 'nama_pegawai'
+      Control = ListView3
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'nip'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField4: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB4
+      FieldName = 'nama_jenis_kendaraan'
+      Control = ListView4
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'kd_jenis_kendaraan'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField5: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB5
+      FieldName = 'jenis_pelanggaran'
+      Control = ListView5
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'kd_jenis_pelanggaran'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField6: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB6
+      FieldName = 'nama_pelanggaran'
+      Control = ListView6
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'kd_pelanggaran'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField7: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB7
+      FieldName = 'jenis_pelanggaran'
+      Control = ListView7
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'kd_jenis_pelanggaran'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField8: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB8
+      FieldName = 'nama_kendaraan'
+      Control = ListView8
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'no_plat'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField9: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB9
+      FieldName = 'nama_jenis_kendaraan'
+      Control = ListView9
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'kd_jenis_kendaraan'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField10: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB10
+      FieldName = 'nm_po'
+      Control = ListView10
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'kd_po'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField11: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB11
+      FieldName = 'trayek'
+      Control = ListView11
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'kd_trayek'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField12: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB12
+      FieldName = 'no_pencatatan'
+      Control = ListView12
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'no_pencatatan'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField13: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB14
+      FieldName = 'nama_kendaraan'
+      Control = ListView13
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'no_plat'
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField14: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB13
+      FieldName = 'nama_pelanggaran'
+      Control = ListView14
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'kd_pelanggaran'
+      FillBreakGroups = <>
+    end
+  end
+  object BindSourceDB2: TBindSourceDB
+    DataSet = DM.wilayah
+    ScopeMappings = <>
+    Left = 528
+    Top = 208
+  end
+  object BindSourceDB3: TBindSourceDB
+    DataSet = DM.staff
+    ScopeMappings = <>
+    Left = 480
+    Top = 216
+  end
+  object BindSourceDB4: TBindSourceDB
+    DataSet = DM.jenis_kendaraan
+    ScopeMappings = <>
+    Left = 536
+    Top = 224
+  end
+  object BindSourceDB5: TBindSourceDB
+    DataSet = DM.jenis_pelanggaran
+    ScopeMappings = <>
+    Left = 640
+    Top = 304
+  end
+  object BindSourceDB6: TBindSourceDB
+    DataSet = DM.data_pelanggaran
+    ScopeMappings = <>
+    Left = 584
+    Top = 160
+  end
+  object BindSourceDB7: TBindSourceDB
+    DataSet = DM.cari_jenis_pelanggaran
+    ScopeMappings = <>
+    Left = 576
+    Top = 256
+  end
+  object BindSourceDB8: TBindSourceDB
+    DataSet = DM.kendaraan
+    ScopeMappings = <>
+    Left = 584
+    Top = 312
+  end
+  object BindSourceDB9: TBindSourceDB
+    DataSet = DM.cari_jenis_kendaraan
+    ScopeMappings = <>
+    Left = 640
+    Top = 200
+  end
+  object BindSourceDB10: TBindSourceDB
+    DataSet = DM.cari_nama_po
+    ScopeMappings = <>
+    Left = 520
+    Top = 272
+  end
+  object BindSourceDB11: TBindSourceDB
+    DataSet = DM.Cari_trayek
+    ScopeMappings = <>
+    Left = 496
+    Top = 304
+  end
+  object BindSourceDB12: TBindSourceDB
+    DataSet = DM.penumpang
+    ScopeMappings = <>
+    Left = 552
+    Top = 216
+  end
+  object BindSourceDB14: TBindSourceDB
+    DataSet = DM.cari_kendaraan
+    ScopeMappings = <>
+    Left = 672
+    Top = 200
+  end
+  object BindSourceDB13: TBindSourceDB
+    DataSet = DM.cari_pelanggaran
+    ScopeMappings = <>
+    Left = 704
+    Top = 248
+  end
+end

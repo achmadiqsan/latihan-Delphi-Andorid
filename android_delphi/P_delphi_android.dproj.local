@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/06/29 14:09:15.000.097,=C:\Users\Near\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/06/29 14:23:32.000.330,=C:\Users\Near\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/06/29 14:24:36.000.759,C:\Users\Near\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\android_delphi\datamodule.pas</Transaction>
+    <Transaction>2020/06/29 14:24:36.000.759,C:\Users\Near\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\android_delphi\datamodule.dfm</Transaction>
+    <Transaction>2020/06/29 14:24:53.000.557,C:\Users\Near\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\android_delphi\U_utama.pas</Transaction>
+    <Transaction>2020/06/29 14:24:53.000.557,C:\Users\Near\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\android_delphi\U_utama.fmx</Transaction>
+    <Transaction>2020/06/29 14:25:04.000.105,C:\Users\Near\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\android_delphi\P_delphi_android.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>
